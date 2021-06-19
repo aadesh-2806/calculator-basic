@@ -1,0 +1,76 @@
+body{
+    background-color: rgb(48, 44, 44);
+    display: flex;
+    justify-content: center;
+    font-family: consolas;
+}
+.container {
+    width: 27%;
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;     
+    align-content: center;
+}
+h1 {
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    color: rgb(105, 105, 35) ;
+}
+h3 {
+    letter-spacing: 1px;
+    color: rgb(143, 121, 92);
+    text-decoration: none;
+    font-weight: 80;
+    text-align: center;
+    margin-top: 0px;
+    
+}
+h2{
+    color: rgb(90, 77, 60);
+    align-self: center;
+    font-size: xx-large;
+    margin: unset;
+    /* animation: animate 1s ease-in; */
+    opacity: 1;
+}
+.hide{
+    display: none;
+}
+.text{
+    color: wheat;
+    align-self: flex-end;
+    margin-right: 0.5em;
+}
+table{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: flex-end;
+    align-items: flex-end;
+}
+button {
+    background-color: rgba(255, 255, 255, 0.103);
+    color: wheat ;
+    margin: 5px;
+    font-size: 2em;
+    width: 2em;
+    height: 2em;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 4px rgba(255,255,255,0.05),-1px -1px 8px rgba(0,0,0,0.2),inset 2px 2px 4px rgba(255,255,255,0.05),inset -1px -1px 8px rgba(0,0,0,0.2);
+}
+button:hover {
+    border: 2px ridge blueviolet;
+    transform: translateY(-2px);
+    box-shadow: 0em 0.5em 0.3em -0.4em blueviolet;
+    cursor: grabbing;
+}
+button:active{
+    border: none;
+}
+td{
+    width:  100px;
+    height: 100px;
+}
